@@ -1,7 +1,6 @@
 package feast;
 
 import feast.models.Fish1;
-import feast.models.Horse7;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

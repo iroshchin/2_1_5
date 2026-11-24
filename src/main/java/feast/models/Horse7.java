@@ -5,9 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Horse7 {
-    // constructor injection
-    private final Camel8 camel8;
-    public Horse7(Camel8 camel8){
+    // setter injection
+    private Camel8 camel8;
+    @Autowired
+    public void setCamel8(Camel8 camel8) {
         this.camel8 = camel8;
     }
     @Override
